@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message version="010" release="006" xmlns="http://www.ncpdp.org/schema/SCRIPT">
+    <Header>
+        <To Qualifier="P">5100015</To>
+        <From Qualifier="D">6178952597001</From>
+        <MessageID>13d091249b9043bf87cd22b60f24651b</MessageID>
+        <SentTime>2013-09-20T22:55:29.3Z</SentTime>
+        <PrescriberOrderNumber>1999</PrescriberOrderNumber>
+        <DigitalSignature version="1.0">
+            <DigestValue>y3qkZYgfRVo2Sv1F9bHa3pDs044=</DigestValue>
+            <SignatureValue>dLAm0u9T8yk1LGEaLqCDpRA1T5J2pxwfdesARtw58+zHxlehKEmPtPTP49MYl9lL9YsrCC+zP7qDQWUHnXdQrDrmMJqPL+cedlf41TOj7Mwe8AzKHx/h1v428mzLdNJ0JfU/Xc78hHOVIW5lRnQiiOx2qoXBHFV+yE3JuzOXWKXrTcxGm9piC0KhTU3dfhytk+Muqo391HABn5xZqTER6SznuIqO5XoRZhzKpPoJpc/R0kYeNxOdI0Ot17bTakY39oBbMVZqV5VUBCCb92SafgLw+8IkxOQtbj7aOZ4AlHQJqZAoS/FOWoPlf0h1ZtZwVn4AsgHUUIHYCpLgO25Lfw==</SignatureValue>
+            <X509Data>MIIFhDCCBGygAwIBAgIKGkGk4AAAAAAAUDANBgkqhkiG9w0BAQsFADCBjjELMAkGA1UEBhMCVVMxGTAXBgNVBAoTEFN1cmVzY3JpcHRzIExMQy4xLjAsBgNVBAsTJVN1cmVzY3JpcHRzIENlcnRpZmljYXRpb24gQXV0aG9yaXRpZXMxNDAyBgNVBAMTK1N1cmVzY3JpcHRzIElzc3VpbmcgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTMwNjE5MTkyMjIzWhcNMTUwNjE5MTkyMjIzWjCBqTELMAkGA1UEBhMCVVMxEjAQBgNVBAgTCU1pbm5lc290YTEUMBIGA1UEBxMLTWlubmVhcG9saXMxFDASBgNVBAoTC1N1cmVzY3JpcHRzMRQwEgYDVQQLEwtEZXZlbG9wbWVudDEZMBcGA1UEAxMQVGVzdFN1aXRlMS12YWxpZDEpMCcGCSqGSIb3DQEJARYaamltLm1hcnRpbkBzdXJlc2NyaXB0cy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbKFXQf50to6SEMbpWnttjrddJ69ukPMiDLosLRWe9XHL+Xf6AQFfPwKwpfvANIp6rPyBvDMBF5sc4VfjFBONrsP1hwLAiVKp2Dx6BjuS7tYmPKHI/zAvwx6BoPm4mHKlr66+FNRA96ZNrycw635lgjvSDf/ZnHT/VtWqk0tXAyNFpLOnD1lV53S8FrdIrHllJ29wodYf1sBKo3paaYpXU9RXT4pOcFqyZy/gYrbEDHbrsPO+Sx+Medk77Wg1ARDp/yUowo4b8nUslO5LvWaW+ptcmOvKWmyG7V86Qh6itAoNGMbOphQVtgB1SO4jkKTD99hj8sxdoQsZKbmjhhKnBAgMBAAGjggHFMIIBwTAOBgNVHQ8BAf8EBAMCBaAwPgYJKwYBBAGCNxUHBDEwLwYnKwYBBAGCNxUIhND4T4Pe/zSH/Zksgs+weYWnjAuBfYXKyRiG1uBIAgFkAgEHMB0GA1UdDgQWBBTYG1zC+KpsL8PkTYTEWeWJLzk+lDAfBgNVHSMEGDAWgBRUkp4XGGrE3wF7f0vzTnl/B9TzTjBIBgNVHR8EQTA/MD2gO6A5hjdodHRwOi8vcGtpLnN1cmVzY3JpcHRzLm5ldC9yZXBvc2l0b3J5L1N1cmVzY3JpcHRzQ0EuY3JsMIGABggrBgEFBQcBAQR0MHIwQwYIKwYBBQUHMAKGN2h0dHA6Ly9wa2kuc3VyZXNjcmlwdHMubmV0L3JlcG9zaXRvcnkvU3VyZXNjcmlwdHNDQS5jcnQwKwYIKwYBBQUHMAGGH2h0dHA6Ly9wa2kuc3VyZXNjcmlwdHMubmV0L29jc3AwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBoGA1UdIAQTMBEwDwYNKwYBBAGCpU+DfTIBAzAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBCwUAA4IBAQBI0dqxaiDh7ogAAPMN5YAFhAC9m58MLSy/y517S8tdOOX7VwLBZbQhSpco+eJW4eClh0NJWvqsrfuXbmo/lEUxd0QbgxUyFfCy3ObAp/yOohlZmDsyqEG1R3VFcy9Nr2pxQXdJvd3LsZZGyHuZ3n+GNv0v4qK3dRONeixHtH4tlvMmChTSuCUItPLzq0UmTlgFAch1hvwoCu617wLMTmCGAHZ7NsKWHORkBBVUSBEkGmRZBZDUBPcOLBP7Dv6twCN9T5C46gmKVTbgxcwUDITRwDTfPfW0fjTMlftcQ4H7HPl5ehdj/7DK3bT17TBQDTZ5ET84GeHoNq1NiLpXhLuc</X509Data>
+        </DigitalSignature>
+    </Header>
+    <Body>
+        <NewRx>
+            <Request>
+                <RequestReferenceNumber>1999</RequestReferenceNumber>
+            </Request>
+            <Pharmacy>
+                <Identification>
+                    <NCPDPID>5100015</NCPDPID>
+                </Identification>
+                <StoreName>Test Pharmacy For 10.x</StoreName>
+                <Address>
+                    <AddressLine1>5910 Alpha Ave</AddressLine1>
+                    <City>Reno</City>
+                    <State>NV</State>
+                    <ZipCode>89506</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>8007991580x1</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Pharmacy>
+            <Prescriber>
+                <Identification>
+                    <DEANumber>II1234567</DEANumber>
+                    <NPI>1285870022</NPI>
+                </Identification>
+                <ClinicName>DrD Test Clinic</ClinicName>
+                <Name>
+                    <LastName>Test000XML</LastName>
+                    <FirstName>Prescriber10dot6 MU</FirstName>
+                </Name>
+                <Address>
+                    <AddressLine1>000 Pending Response Ct</AddressLine1>
+                    <City>Arlington</City>
+                    <State>VA</State>
+                    <ZipCode>22202</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7035550009</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Prescriber>
+            <Patient>
+                <Identification>
+                    <FileID>AYC-4273</FileID>
+                </Identification>
+                <Name>
+                    <LastName>WhiteSide</LastName>
+                    <FirstName>Kara</FirstName>
+                </Name>
+                <Gender>F</Gender>
+                <DateOfBirth>
+                    <Date>1950-01-01</Date>
+                </DateOfBirth>
+                <Address>
+                    <AddressLine1>23230 Seaport</AddressLine1>
+                    <City>Akron</City>
+                    <State>OH</State>
+                    <ZipCode>44306</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>5555551212</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Patient>
+            <MedicationPrescribed>
+                <DrugDescription>Ambien 10 mg tablet</DrugDescription>
+                <DrugCoded>
+                    <ProductCode>00024542131</ProductCode>
+                    <ProductCodeQualifier>ND</ProductCodeQualifier>
+                    <DEASchedule>C48677</DEASchedule>
+                </DrugCoded>
+                <Quantity>
+                    <Value>10</Value>
+                    <CodeListQualifier>38</CodeListQualifier>
+                    <UnitSourceCode>AC</UnitSourceCode>
+                    <PotencyUnitCode>C38046</PotencyUnitCode>
+                </Quantity>
+                <Directions>Take one tablet once a day after every meal. Do not take on empty stomach</Directions>
+                <Note>This is a schedule CIV medication</Note>
+                <Refills>
+                    <Qualifier>R</Qualifier>
+                    <Value>0</Value>
+                </Refills>
+                <Substitutions>0</Substitutions>
+                <WrittenDate>
+                    <Date>2013-09-19</Date>
+                </WrittenDate>
+            </MedicationPrescribed>
+        </NewRx>
+    </Body>
+</Message>

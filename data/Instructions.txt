@@ -1,0 +1,22 @@
+For the purpose of this project, we only need to decrypt the data to make sure the original message has not been tampered with. We do NOT need to encrypt the data, just be able to decrypt and verify the returned hash matches the posted data.
+
+Purpose:
+A prescriber fills out an e-prescription which is sent to a pharmacy (our service). The pharmacy then verifies the certificate and data are valid and then fills the script.
+
+Task:
+Verify that the certificate is valid: if valid, decrypt data. If invalid, return error message
+Use the X509 certificate to decrypt the SignatureValue data
+A valid message will return a hash equal to the DigestValue
+Method/Function returns a pass or fail status
+
+Overview:
+The X509 certificate in the attached xml message is a valid certificate. Other versions attached include a self-signed cert, invalid cert, and revoked cert. All message data is exaclty the same. The only change is the cert. 
+The SignatureValue is an encrypted value of the hash to be returned after decryption and should match the DigestValue.
+The DigestValue is the hash we are trying to find from the encrypted data. This value is a SHA-1 hash of a concatenated string. The value of this string is derived from the XML message. See Certificate Spec.pdf.
+
+Usage:
+We would like a class that allows us to pass the XML message and have it return a pass or fail status.
+
+Language:
+May be written in PHP or Java
+Using 3rd party opensource or free libraries is ok
